@@ -5,6 +5,8 @@ Practice for upcoming projects
 
 Node Web Server
 
+checkout this branch to run a web server off your local machine using nodejs and express!
+
 Dependencies:
 
 git, nodejs, npm, express.
