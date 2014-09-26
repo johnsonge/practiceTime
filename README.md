@@ -16,9 +16,7 @@ For those who don't know, a basic work flow using git in ubuntu goes like this:
 
 * update code by pulling the code from the branch  (in this example master)
 	
-		git pull origin master
-
-* think of something to fix, fix it, then commit.
+		git pull origin master * think of something to fix, fix it, then commit.
 
 		git add [files changed]
 
@@ -70,8 +68,8 @@ All commands are prefixed with `git`.   So `status` should be typed into a conso
 
 \*note that this is not a complete reference, but meant simply as something easy to look at for some basic commands. 
 
-	feel free to edit this to make it better/add more.
+feel free to edit this to make it better/add more.
 
-	a more complete and accurate reference can be found by running `git help` 
+a more complete and accurate reference can be found by running `git help` 
 
-	or `git help [command]` such as `git help checkout` for more in depth help on a specific command.
+or `git help [command]` such as `git help checkout` for more in depth help on a specific command.
