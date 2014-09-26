@@ -45,27 +45,28 @@ For those who don't know, a basic work flow using git in ubuntu goes like this:
 All commands are prefixed with `git`.   So `status` should be typed into a console as `git status`.  
 
 	status			returns a status of your current working directory, 
-							including branch, changes since last commit, 
-							and what files are tracked and untracked.
+						including branch, changes since last commit, 
+						and what files are tracked and untracked.
 
 	commit			commits your changes.  Do this often, because you can always 
-							reset your code to any commit.  do it before, during, 
-							and after you change things, even small things.  
-					
-							should be suffixed with -m"commit message" for clarity. 
+						reset your code to any commit.  do it before, during, 
+						and after you change things, even small things.  
+				
+						should be suffixed with -m"commit message" for clarity. 
 
-	pull				pulls changes from a remote branch into your current local branch. 
-							this should be done before you start working, 
-							before you push and merge as well.
-							syntax: git pull origin master
-								where master is the remote branch you're pulling from.
+	pull				pulls changes from a remote branch into your 
+						current local branch.  this should be done 
+						before you start working, before you push 
+						and merge as well.  
+						syntax: git pull origin master
+							where master is the remote branch you're pulling from.
 
 	checkout		changes current branch.
-							syntax: git checkout master
-								where master is the branch you're switching to.
+						syntax: git checkout master
+							where master is the branch you're switching to.
 
 	branch			returns which branch you're on, as well as 
-							which branches you have locally.
+						which branches you have locally.
 
 \*note that this is not a complete reference, but meant simply as something easy to look at for some basic commands. 
 
