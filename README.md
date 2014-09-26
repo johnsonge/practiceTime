@@ -15,7 +15,7 @@ to install on an Ubuntu machine, run this with root privelages
 	
 	apt-get install git nodejs npm
 
-	npm install express
+	npm install -g express
 
 in this directory, run 
 
