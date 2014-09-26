@@ -2,7 +2,18 @@ practiceTime
 ============
 
 Practice for upcoming projects
+
 Test commit - Gene
+
+Test commit - Alex
+
+#####PSA: 
+
+In general, good practice is for only one person to manage the master branch, no one else.  If this person isn't you, and the change you want to make will take more than one commit, you should make a new branch, make the change, commit and push it, then make a pull request for the master branch to pull in your changes.
+
+This way, master will always be a working version, and if something breaks, then it's easier to see where this happened, and changes are more easily tracked and organized. 
+
+------------------------------------------------------------
 
 Please, feel free to make a branch, make changes, commit them, push and pull request to your liking.  This repository is meant for you to use to practice.
 
@@ -73,3 +84,4 @@ feel free to edit this to make it better/add more.
 a more complete and accurate reference can be found by running `git help` 
 
 or `git help [command]` such as `git help checkout` for more in depth help on a specific command.
+
