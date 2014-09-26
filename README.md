@@ -44,8 +44,9 @@ For those who don't know, a basic work flow using git in ubuntu goes like this:
 
 All commands are prefixed with `git`.   So `status` should be typed into a console as `git status`.  
 
-	status			returns a status of your current working directory, including branch, 
-							changes since last commit, and what files are tracked and untracked.
+	status			returns a status of your current working directory, 
+							including branch, changes since last commit, 
+							and what files are tracked and untracked.
 
 	commit			commits your changes.  Do this often, because you can always 
 							reset your code to any commit.  do it before, during, 
