@@ -29,7 +29,7 @@ For those who don't know, a basic work flow using git in ubuntu goes like this:
 
 * Next, when your fix is working satisfactorily, and your changes are commited, push to your personal branch, in this case I'll call it drew.
 
-	git push origin drew
+		git push origin drew
 
 * This pushes your local changes to github's servers.  Now, on github.com/username/repository, you can see your changes within your branch.
 
