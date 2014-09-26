@@ -15,33 +15,31 @@ If you don't have a computer that runs it, you can find VirtualBox to run a VM, 
 
 For those who don't know, a basic work flow using git in ubuntu goes like this:
 
-	update code by pulling the code from the branch  (in this example master)
-		
-			git pull origin master
+* update code by pulling the code from the branch  (in this example master)
 	
-	think of something to fix, fix it, then commit.
+		git pull origin master
 
-			git add [files changed]
+* think of something to fix, fix it, then commit.
 
-			git commit -m"fixed what I wanted to"
+		git add [files changed]
 
-	The message in the quotes can be anything, but the more descriptive the better.
+		git commit -m"fixed what I wanted to"
 
-	Next, when your fix is working satisfactorily, and your changes are commited, 
+* The message in the quotes can be anything, but the more descriptive the better.
 
-	push to your personal branch, in this case I'll call it drew.
+* Next, when your fix is working satisfactorily, and your changes are commited, push to your personal branch, in this case I'll call it drew.
 
-		git push origin drew
+	git push origin drew
 
-	This pushes your local changes to github's servers.  Now, on github.com/username/repository, you can see your changes within your branch.
+* This pushes your local changes to github's servers.  Now, on github.com/username/repository, you can see your changes within your branch.
 
-	if you feel these changes should be pulled in by another branch, you can submit a pull request.  
+* if you feel these changes should be pulled in by another branch, you can submit a pull request.  
 
-	click the green button next to the branch drop-down menu.  It's pretty easy to see.  
+* click the green button next to the branch drop-down menu.  It's pretty easy to see.  
 
-	A pull request is essentially saying to someone else, "hey, look what I did! Can you merge my changes into your code?"
+* A pull request is essentially saying to someone else, "hey, look what I did! Can you merge my changes into your code?"
 
-	Now, you repeat the process, with a different issue.  
+* Now, you repeat the process, with a different issue.  
 
 ##Git command reference
 
